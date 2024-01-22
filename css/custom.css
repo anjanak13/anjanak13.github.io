@@ -1,0 +1,64 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* cards */
+
+.card-footer {
+  background: transparent;
+  border-top: 0px;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 40rem;
+    max-width: 100vw;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+ 
+  .welcome-carousel-image1{
+    box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.3);
+    background-image:url('../images/carousel1.jpg');
+  }
+
+  .welcome-carousel-image2{
+    box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.3);
+    background-image:url('../images/carousel2.jpg');
+  }
+
+  .welcome-carousel-image3{
+    box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.3);
+    background-image:url('../images/carousel3.jpg');
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+/* Jumbotron base class */
+.jumbotron {
+  box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.1);
+  height: 40vh;
+  background-size: cover; /* Use "cover" to maintain aspect ratio and cover the entire container */
+ /* background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Ensure the background image is not repeated */
+}
+
+.jumbotron-other {
+  background: url('../images/jumbo.jpg') no-repeat fixed;
+  background-size: cover; /* Use "cover" to maintain aspect ratio and cover the entire container */
+  /*background-position: center;  Center the background image */
+}
+
