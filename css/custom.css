@@ -62,3 +62,24 @@ html {
   /*background-position: center;  Center the background image */
 }
 
+/* Adding typewriter effect to hobbies */
+.typewriter h1 {
+  text-align: center;
+  padding-top: 4em;
+
+}
+.typewriter h1 a {
+  padding: 13px;
+  text-decoration: none;
+  background-color: white;
+  color: black; /* Set the text color to white */
+}
+
+#customIntro{
+  text-align: center;
+  padding-top: 4em;
+  padding: 13px;
+  text-decoration: none;
+  background-color: white;
+  color: black; 
+}
