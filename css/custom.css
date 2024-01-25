@@ -74,12 +74,3 @@ html {
   background-color: white;
   color: black; /* Set the text color to white */
 }
-
-#customIntro{
-  text-align: center;
-  padding-top: 4em;
-  padding: 13px;
-  text-decoration: none;
-  background-color: white;
-  color: black; 
-}
