@@ -21,11 +21,15 @@ html {
   
   /* Declare heights because of positioning of img element */
   .carousel-item {
-    height: 40rem;
+    height: 63rem;
     max-width: 100vw;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+  }
+
+  #carousel2{
+    max-height: 500px;
   }
  
   .welcome-carousel-image1{
@@ -74,3 +78,4 @@ html {
   background-color: white;
   color: black; /* Set the text color to white */
 }
+
