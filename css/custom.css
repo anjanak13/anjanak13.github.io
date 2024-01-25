@@ -27,6 +27,10 @@ html {
     background-position: center center;
     background-repeat: no-repeat;
   }
+
+  #carousel2{
+    max-height: 500px;
+  }
  
   .welcome-carousel-image1{
     box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.3);
@@ -83,3 +87,4 @@ html {
   background-color: white;
   color: black; 
 }
+
