@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .test {
   height: 45vh;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.01), rgba(1, 1, 1, 0.01) 85%), 
