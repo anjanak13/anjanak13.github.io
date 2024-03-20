@@ -66,3 +66,5 @@ var TxtType = function(el, toRotate, period) {
     e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
     })();
       
+
+window.$crisp=[];window.CRISP_WEBSITE_ID="2f5561a0-4062-48f4-bf11-30a5f9072aec";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
